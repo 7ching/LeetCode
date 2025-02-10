@@ -12,6 +12,11 @@ class Solution(object):
                 break
             count += 1 
         return count
+        # ----- optimized -----
+        # words = s.split()
+        # if not words:
+        #     return 0
+        # return len(words[-1])
 
         
 s = "Hello World"
